@@ -1,6 +1,6 @@
 
 /* First we need to get the button and what happens when we click the button*/
-document.querySelectorAll('[data-id]').addEventListener('click', CMTS);
+document.querySelector('[data-id]').addEventListener('click', CMTS);
 
 /*CMTS is convert Mintues to Seconds */
 function CMTS() {
